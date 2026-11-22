@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 128 128" role="img" aria-label="Lijst icoon">
+  <rect width="128" height="128" fill="#1d284b" rx="16" ry="16"/>
+  <g fill="#FFFFFF" stroke="none" transform="translate(18,20)">
+    <circle cx="8" cy="14" r="6"/>
+    <rect x="22" y="8" width="78" height="12" rx="6" ry="6" />
+    <circle cx="8" cy="46" r="6"/>
+    <rect x="22" y="40" width="78" height="12" rx="6" ry="6" />
+    <circle cx="8" cy="78" r="6"/>
+    <rect x="22" y="72" width="78" height="12" rx="6" ry="6" />
+  </g>
+  <ellipse cx="42" cy="34" rx="26" ry="8" fill="#FFFFFF" opacity="0.06" transform="rotate(-20 42 34)" />
+</svg>

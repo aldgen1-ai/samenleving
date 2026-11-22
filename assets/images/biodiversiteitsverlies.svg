@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+    <!-- Achtergrond -->
+    <rect width="800" height="400" fill="#f0f0f0"/>
+    
+    <!-- Tijdlijn -->
+    <line x1="100" y1="300" x2="700" y2="300" stroke="black" stroke-width="2"/>
+    
+    <!-- Jaren -->
+    <text x="100" y="320" font-size="14">1900</text>
+    <text x="300" y="320" font-size="14">1960</text>
+    <text x="500" y="320" font-size="14">2000</text>
+    <text x="700" y="320" font-size="14">2024</text>
+    
+    <!-- Biodiversiteitslijn -->
+    <path d="M100,100 C200,120 250,180 300,200 C350,220 400,240 500,260 C600,270 650,280 700,285" 
+          fill="none" stroke="#D32F2F" stroke-width="3"/>
+    
+    <!-- Legenda symbolen -->
+    <g transform="translate(50,50)">
+        <!-- Vlinder (afnemend) -->
+        <path d="M20,0 C25,-5 30,-5 35,0 C40,5 35,10 30,10 C25,10 20,5 25,0" 
+              fill="#FFB74D" opacity="0.6"/>
+        <!-- Boom (afnemend) -->
+        <rect x="15" y="20" width="5" height="15" fill="#2E7D32"/>
+        <circle cx="17.5" cy="15" r="8" fill="#2E7D32"/>
+        <!-- Vogel (afnemend) -->
+        <path d="M15,45 C20,40 25,40 30,45 L25,50 Z" fill="#1976D2"/>
+    </g>
+    
+    <!-- Labels -->
+    <text x="400" y="50" font-size="20" text-anchor="middle" font-weight="bold">Biodiversiteitsverlies in Nederland</text>
+    <text x="400" y="80" font-size="14" text-anchor="middle">Afname van flora en fauna door de jaren heen</text>
+    
+    <!-- Y-as label -->
+    <text x="50" y="200" font-size="14" transform="rotate(-90,50,200)">Biodiversiteit</text>
+    
+</svg>

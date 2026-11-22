@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wij.site.je/sitemap.xml
